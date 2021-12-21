@@ -37,21 +37,37 @@ div[class^="col"] {
 }
 
 .container--l {
-    width: 960px;
+    width: 1080px;
     margin: 0 auto;
 }
 
 .container {
-    width: 800px;
+    width: 960px;
     margin: 0 auto;
+}
+
+.col--12 {
+    width: 100%;
+}
+
+.col--8 {
+    width: 66.66%;
+}
+
+.col--4 {
+    width: 33.33%;
+}
+
+.col--2 {
+    width: 16.66%;
 }
 
 /* bottoni  */
 .button {
     color: white;
-    background-color: blue;
+    background-color: #0061FF;
     display: inline-block;
-    padding: 5px 10px;
+    padding: 5px 15px;
 }
 
 /* header  */
@@ -86,6 +102,57 @@ header .container--fluid .row .col .header__button {
     padding: 17px 10px;
 }
 
+/* jumbotron  */
+section#jumbo {
+    background-color: #B4D0E7;
+}
+
+#jumbo .container--l {
+    padding: 60px 10px 60px 10px;
+}
+
+#jumbo .row:last-child {
+    position: relative;
+}
+
+#jumbo .row:first-child {
+    margin-bottom: 25px;
+}
+
+#jumbo .jumbo__title h1 {
+    font-size: 63px;
+}
+
+#jumbo .jumbo__text {
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: 13px;
+    width: 95%;
+}
+
+#jumbo .jumbo__cta a {
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+#jumbo .jumbo__cta p {
+    margin-bottom: 20px;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+#jumbo .jumbo__cta span {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+#jumbo .jumbo__img img {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 680px;
+    height: 350px;
+}
 
 
 
@@ -94,20 +161,20 @@ header .container--fluid .row .col .header__button {
 /* DEBUG  */
 .debug header, .debug section, .debug footer {
     border: 1px solid black;
-    padding: 20px;
+    /* padding: 20px; */
 }
 
 .debug div[class^="container"] {
     border: 1px solid orange;
-    padding: 20px;
+    /* padding: 20px; */
 }
 
 .debug .row {
     border: 1px solid green;
-    padding: 20px;
+    /* padding: 20px; */
 }
 
 .debug div[class^="col"] {
     border: 1px dashed blue;
-    padding: 20px;
+    /* padding: 20px; */
 }
