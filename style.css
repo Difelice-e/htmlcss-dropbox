@@ -6,6 +6,7 @@
 }
 
 html {
+    font-family: 'Space Grotesk', sans-serif;
     font-size: 16px;
 }
 
@@ -17,4 +18,96 @@ a {
 img {
     width: 100%;
     display: block;
+}
+
+.row::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+div[class^="col"] {
+    float: left;
+}
+
+/* dimensionamento layout */
+.container--fluid {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.container--l {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+/* bottoni  */
+.button {
+    color: white;
+    background-color: blue;
+    display: inline-block;
+    padding: 5px 10px;
+}
+
+/* header  */
+header {
+    font-size: 14px;
+}
+
+header .container--fluid .row .col:last-child {
+    float: right;
+}
+
+header .row .col div {
+    float: left;
+    padding: 20px 10px;
+}
+
+header .header__menu li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+header .header__menu a {
+    line-height: 25px;
+    
+}
+
+header .container--fluid .row .col .header__menu li:last-child {
+    margin-right: 0;
+}
+
+header .container--fluid .row .col .header__button {
+    padding: 17px 10px;
+}
+
+
+
+
+
+
+/* DEBUG  */
+.debug header, .debug section, .debug footer {
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.debug div[class^="container"] {
+    border: 1px solid orange;
+    padding: 20px;
+}
+
+.debug .row {
+    border: 1px solid green;
+    padding: 20px;
+}
+
+.debug div[class^="col"] {
+    border: 1px dashed blue;
+    padding: 20px;
 }
