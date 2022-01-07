@@ -165,7 +165,7 @@ section#jumbo {
 
 /* selezione del piano  */
 #plan-selector .plan {
-    border: 1px solid grey;
+    border: 1px solid #E5E5E5;
     border-bottom: none;
 }
 
@@ -227,7 +227,7 @@ section#jumbo {
 }
 
 #plan-selector .plan .plan__header {
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid #E5E5E5;
     text-align: center;
     padding: 10px 10px;
 }
@@ -318,7 +318,7 @@ section#jumbo {
 #plan-selector .col--12:last-child .plan__main {
     padding-top: 20px;
     padding-bottom: 10px;
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid #E5E5E5;
     margin-bottom: 50px;
 }
 
@@ -359,7 +359,6 @@ section#jumbo {
 
 #features h3 {
     font-size: 24px;
-    margin-bottom: 20px;
 }
 
 #features .row .col--4:nth-child(2) {
@@ -386,12 +385,11 @@ section#free-try {
     float: left;
     width: 50%;
     font-size: 23px;
-    color: crimson;
+    color: #61082B;
 }
 
 #free-try .right {
     float: right;
-    width: 35%;
 }
 
 #free-try .button {
@@ -400,7 +398,64 @@ section#free-try {
     border: none;
 }
 
+/* Sezione FAQ */
+#FAQ .container {
+    padding: 100px 0;
+}
 
+#FAQ h3 {
+    font-size: 28px;
+    margin-bottom: 40px;
+}
+
+#FAQ .row div {
+    float: left;
+}
+
+#FAQ .row i {
+    float: right;
+}
+
+#FAQ .row.question {
+    border-top: 1px solid #E5E5E5;
+    padding: 40px 0;
+    font-size: 14px;
+    font-weight: 800;
+}
+
+/* Footer  */
+footer {
+    background-color: black;
+    color: white;
+}
+
+footer .row:first-child {
+    padding: 100px 0;
+}
+
+footer h4 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+footer ul li {
+    padding: 5px;
+    font-size: 14px;
+}
+
+footer .col--2 {
+    padding: 0 20px;
+    width: calc(100% /5);
+}
+
+footer .col--12 {
+    padding: 50px 0 35px 20px;
+    color: #e5e5e5b6;
+}
 
 
 
