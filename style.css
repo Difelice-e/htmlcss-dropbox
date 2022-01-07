@@ -59,6 +59,10 @@ section {
     width: 66.66%;
 }
 
+.col--6 {
+    width: 49.99%;
+}
+
 .col--4 {
     width: 33.33%;
 }
@@ -314,10 +318,87 @@ section#jumbo {
 #plan-selector .col--12:last-child .plan__main {
     padding-top: 20px;
     padding-bottom: 10px;
-    margin-bottom: 1px solid grey;
+    border-bottom: 1px solid grey;
+    margin-bottom: 50px;
 }
 
+/* Sezione trova un partner/Contattaci */
 
+#contattaci .row {
+    padding: 50px 0;
+}
+
+#contattaci h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#contattaci .row .col--6:last-child div:first-child {
+    padding: 40px;
+}
+
+#contattaci p {
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+#contattaci .button {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+/* Sezione features  */
+#features .row {
+    padding: 50px 0;
+}
+
+#features h2 {
+    font-size: 35px;
+}
+
+#features h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#features .row .col--4:nth-child(2) {
+    margin: 0 50px;
+}
+
+#features .row .col--4 {
+    width: calc((100% - 100px) /3);
+}
+
+/* Sezione partner  */
+
+
+/* Sezione free-try  */
+section#free-try {
+    background-color: #B4D0E7;
+}
+
+#free-try .row {
+    padding: 100px 0;
+}
+
+#free-try .left {
+    float: left;
+    width: 50%;
+    font-size: 23px;
+    color: crimson;
+}
+
+#free-try .right {
+    float: right;
+    width: 35%;
+}
+
+#free-try .button {
+    color: black;
+    background-color: white;
+    border: none;
+}
 
 
 
