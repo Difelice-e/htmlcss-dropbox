@@ -193,6 +193,7 @@ section#jumbo {
 
 #plan-selector .plan .plan__main ul {
     margin-bottom: 30px;
+    list-style-type: none;
 }
 
 #plan-selector .plan .plan__main li {
@@ -284,19 +285,12 @@ section#jumbo {
 }
 
 #plan-selector .plan__main::after {
-    
     width: 50px;
     border: 1px solid #E5E5E5;
     display: block;
     content: "";
     position: absolute;
     margin-top: 20px;
-}
-
-#plan-selector .col
-
-#plan-selector .plan ul {
-    list-style-type: none;
 }
 
 #plan-selector .plan li {
